@@ -1,1 +1,119 @@
 # Work Day Scheduler Starter Code
+
+## Description
+
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+
+- What was your motivation? 
+My motiavtion for this project was to able to understand the concepts of Application Programming Interface. 
+
+- Why did you build this project? 
+I builded this project becuase I wanted to know how the API interacts with the HTML file. It's intresting what does API can do a web page. It created a complicated concept. 
+
+- What problem does it solve?
+The program solves multiple problems. From first creating the function of start buttom to saving score and initials. It was a challenging project for me. I know that the code does not look clean but I think it does the job.  
+
+- What did you learn?
+I learned the concepts of Application Programming Interface. The concepts that found more intresting was to the storege of items. I can found knowing that concept helpful in the future. In addition, also found the time concept really intresting. Overall I still need to master the concepts but I have a good understanding of how API work. I know it does not look nice but it does the most important aspects of the javascript accepted criteria. 
+
+## Table of Contents (Optional)
+
+
+- [Accepted Criteria](#criteria)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Accepted Criteria
+
+GIVEN I am using a daily planner to create a schedule
+
+WHEN I open the planner
+
+THEN the current day is displayed at the top of the calendar
+
+WHEN I scroll down
+
+THEN I am presented with time blocks for standard business hours
+
+WHEN I view the time blocks for that day
+
+THEN each time block is color-coded to indicate whether it is in the past, present, or future
+
+WHEN I click into a time block
+
+THEN I can enter an event
+
+WHEN I click the save button for that time block
+
+THEN the text for that event is saved in local storage
+
+WHEN I refresh the page
+
+THEN the saved events persist
+
+## Usage
+
+  [Website link](https://huertz.github.io/lol-quiz/)
+
+  `assets/images`
+   md ![alt text](./assets/images/League-of-Legends-Quiz.png)
+
+## Credits
+
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+
+[Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+[LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+
+[Click Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event)
+
+[Timer](https://www.w3schools.com/js/js_timing.asp)
+
+[Subtract Timer](https://stackoverflow.com/questions/58964755/subtract-time-from-timer-if-answer-is-wrong-creating-a-quiz-javascript)
+
+
+## License
+
+MIT License
+
+Copyright (c) 2022 Huertz
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+
+## Badges
+
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+
+Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+
+## Features
+
+If your project has a lot of features, list them here.
+
+## How to Contribute
+
+If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+
+## Tests
