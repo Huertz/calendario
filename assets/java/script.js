@@ -1,21 +1,24 @@
-// var currentDayEl = $("#currentDay");
-// Function Display Current Time 
-// function currentTime() {
-//     var rightNow = moment().format("dddd, MMMM Do YYYY");
-//     currentDayEl.text(rightNow);
-// }
+// Current Day Header
+var todaysDate = moment().format('dddd, MMMM Do YYYY')
+$("#currentDay").text(todaysDate)
 
 
-// Current Day
-var rightNow = moment().format('dddd, MMMM Do YYYY')
-$("#currentDay").text(rightNow)
+// https://momentjs.com/docs/#/get-set/hour/
+function timeCheck() {
+    // Variable for current
+    var timeNow = moment().hour();
 
-// If statement for colors 
-var today = new Date().getHours();
-if (today >= 7 && today <= 19) {
-   document.$currentColorEl.style.background = "#77dd77";
-if (today === today)
-    document.$currentColorEl.style.background = '#ff6961'
-} else {
-    document.$currentColorEl.style.background = "Blue";
-}
+    $(".time-block").each(function () {
+        var currHour = parseInt($(this).attr("id"));
+
+        if (currHour > timeNow) {
+            $(this).addClass("future");
+        } else if (currHour === timeNow) {
+            $(this).addClass("present");
+        } else {
+            $(this).addClass("past");
+        }
+    })
+};
+
+timeCheck();
