@@ -16,7 +16,7 @@ $(document).ready(function () {
 
     })
 
-    // https://momentjs.com/docs/#/get-set/hour/
+    // 
     function timeCheck() {
         // Variable for current hour
         var timeNow = moment().hour();

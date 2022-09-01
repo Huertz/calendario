@@ -5,16 +5,16 @@
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
 - What was your motivation? 
-My motiavtion for this project was to able to understand the concepts of Application Programming Interface. 
+My motivation for this project was to understand JQuery and Moments.js
 
 - Why did you build this project? 
 I builded this project becuase I wanted to know how the API interacts with the HTML file. It's intresting what does API can do a web page. It created a complicated concept. 
 
 - What problem does it solve?
-The program solves multiple problems. From first creating the function of start buttom to saving score and initials. It was a challenging project for me. I know that the code does not look clean but I think it does the job.  
+The program solves multiple problems. The first problem that it solves is that it displays the current day of the year. The following problem that it solves it creates a similar mock of the project by using bootstrap. Depending on the time, the columbs change color. The final problem that it solves, it saves a event in local storage.   
 
 - What did you learn?
-I learned the concepts of Application Programming Interface. The concepts that found more intresting was to the storege of items. I can found knowing that concept helpful in the future. In addition, also found the time concept really intresting. Overall I still need to master the concepts but I have a good understanding of how API work. I know it does not look nice but it does the most important aspects of the javascript accepted criteria. 
+I learned concepts of JQuery. In addition to Moments.js which it's a really intresting libary of time. The most facinating thing was bootstap, it would defiantly help me save time in the future. 
 
 ## Table of Contents (Optional)
 
@@ -54,24 +54,20 @@ THEN the saved events persist
 
 ## Usage
 
-  [Website link](https://huertz.github.io/lol-quiz/)
+  [Website link](https://huertz.github.io/calendario/)
 
   `assets/images`
-   md ![alt text](./assets/images/League-of-Legends-Quiz.png)
+   md ![alt text](./assets/images/Work-Day-Scheduler.png)
 
 ## Credits
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-[Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[JQuery](https://jquery.com/)
 
-[LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+[Moments.js](https://momentjs.com/docs/#/get-set/hour/)
 
-[Click Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event)
-
-[Timer](https://www.w3schools.com/js/js_timing.asp)
-
-[Subtract Timer](https://stackoverflow.com/questions/58964755/subtract-time-from-timer-if-answer-is-wrong-creating-a-quiz-javascript)
+[Bootstap](https://getbootstrap.com/)
 
 
 ## License
