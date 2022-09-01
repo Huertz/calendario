@@ -16,7 +16,7 @@ $(document).ready(function () {
 
     })
 
-    // 
+    // TimeCheck 
     function timeCheck() {
         // Variable for current hour
         var timeNow = moment().hour();
