@@ -69,6 +69,11 @@ If you used any third-party assets that require attribution, list the creators w
 
 [Bootstap](https://getbootstrap.com/)
 
+[parseInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+
+[attr](https://www.w3schools.com/jquery/html_attr.asp)
+
+
 
 ## License
 
