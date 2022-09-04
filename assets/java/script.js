@@ -10,11 +10,11 @@ $(document).ready(function () {
 
         // Stores into local storage
         localStorage.setItem(time, text);
-
+        $('#announcement').text('Event Stored❗❗❗')
     });
 
     // Local storage gets item from description
-    $("#hora9 .description").val(localStorage.getItem("hora9"));
+    $("#hora9 .description").val(localStorage.getItem("hour9"));
     $("#hora10 .description").val(localStorage.getItem("hora10"));
     $("#hora11 .description").val(localStorage.getItem("hora11"));
     $("#hora12 .description").val(localStorage.getItem("hora12"));
@@ -33,12 +33,18 @@ $(document).ready(function () {
             var compareTime = parseInt($(this).attr("id").split("hour")[1]);
             // Adds the future class
             if (compareTime < timeNow) {
+                $(this).removeClass("present");
+                $(this).removeClass("future");
                 $(this).addClass("past");
                 // Adds the present class
             } else if (compareTime === timeNow) {
+                $(this).removeClass("past");
+                $(this).removeClass("future");
                 $(this).addClass("present");
                 // Adds the past class
             } else {
+                $(this).removeClass("past");
+                $(this).removeClass("present");
                 $(this).addClass("future");
             }
         });
