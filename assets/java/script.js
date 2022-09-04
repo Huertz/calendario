@@ -15,19 +15,21 @@ $(document).ready(function () {
         localStorage.setItem(time, text);
 
     })
-
+    
     // TimeCheck 
     function timeCheck() {
         // Variable for current hour
         var timeNow = moment().hour();
 
         $(".time-block").each(function () {
-            var currHour = parseInt($(this).attr("id"));
+            var currHour = parseInt($(this).attr("id").split("hour")[1]);
             // Adds the future class
             if (currHour > timeNow) {
+                $(this).removeClass("future");
                 $(this).addClass("future");
             // Adds the present class
             } else if (currHour === timeNow) {
+                
                 $(this).addClass("present");
             // Adds the past class
             } else {
@@ -36,8 +38,7 @@ $(document).ready(function () {
         })
     };
 
-
-    // Local storage get item from description
+ // Local storage get item from description
     $("#hora9 .description").val(localStorage.getItem("hora9"));
     $("#hora10 .description").val(localStorage.getItem("hora10"));
     $("#hora11 .description").val(localStorage.getItem("hora11"));
@@ -47,7 +48,8 @@ $(document).ready(function () {
     $("#hora3 .description").val(localStorage.getItem("hora3"));
     $("#hora4 .description").val(localStorage.getItem("hora4"));
     $("#hora5 .description").val(localStorage.getItem("hora5"));
-
-    timeCheck();
+  
+ timeCheck();  
+ 
 
 })
