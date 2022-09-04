@@ -31,15 +31,12 @@ $(document).ready(function () {
 
         $(".time-block").each(function () {
             var compareTime = parseInt($(this).attr("id").split("hour")[1]);
-            // Adds the future class
+            // Adds the future class 
             if (compareTime < timeNow) {
-                $(this).removeClass("present");
-                $(this).removeClass("future");
                 $(this).addClass("past");
                 // Adds the present class
             } else if (compareTime === timeNow) {
                 $(this).removeClass("past");
-                $(this).removeClass("future");
                 $(this).addClass("present");
                 // Adds the past class
             } else {
