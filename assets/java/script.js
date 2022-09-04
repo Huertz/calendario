@@ -36,13 +36,9 @@ $(document).ready(function () {
                 $(this).addClass("past");
                 // Adds the present class
             } else if (compareTime === timeNow) {
-                $(this).removeClass("past");
-                $(this).removeClass("future");
                 $(this).addClass("present");
                 // Adds the past class
             } else {
-                $(this).removeClass("past");
-                $(this).removeClass("present");
                 $(this).addClass("future");
             }
         });
