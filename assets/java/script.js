@@ -14,7 +14,7 @@ $(document).ready(function () {
     });
 
     // Local storage gets item from description
-    $("#hora9 .description").val(localStorage.getItem("hour9"));
+    $("#hora9 .description").val(localStorage.getItem("hora9"));
     $("#hora10 .description").val(localStorage.getItem("hora10"));
     $("#hora11 .description").val(localStorage.getItem("hora11"));
     $("#hora12 .description").val(localStorage.getItem("hora12"));
