@@ -14,15 +14,15 @@ $(document).ready(function () {
     });
 
     // Local storage gets item from description
-    $("#hora9 .description").val(localStorage.getItem("hora9"));
-    $("#hora10 .description").val(localStorage.getItem("hora10"));
-    $("#hora11 .description").val(localStorage.getItem("hora11"));
-    $("#hora12 .description").val(localStorage.getItem("hora12"));
-    $("#hora1 .description").val(localStorage.getItem("hora1"));
-    $("#hora2 .description").val(localStorage.getItem("hora2"));
-    $("#hora3 .description").val(localStorage.getItem("hora3"));
-    $("#hora4 .description").val(localStorage.getItem("hora4"));
-    $("#hora5 .description").val(localStorage.getItem("hora5"));
+    $("#hour9 .description").val(localStorage.getItem("hour9"));
+    $("#hour10 .description").val(localStorage.getItem("hour10"));
+    $("#hour11 .description").val(localStorage.getItem("hour11"));
+    $("#hour12 .description").val(localStorage.getItem("hour12"));
+    $("#hour13 .description").val(localStorage.getItem("hour13"));
+    $("#hour14 .description").val(localStorage.getItem("hour14"));
+    $("#hour15 .description").val(localStorage.getItem("hour15"));
+    $("#hour16 .description").val(localStorage.getItem("hour16"));
+    $("#hour17 .description").val(localStorage.getItem("hour17"));
 
     // TimeCheck 
     function timeCheck() {
@@ -30,7 +30,7 @@ $(document).ready(function () {
         var timeNow = moment().hour();
 
         $(".time-block").each(function () {
-            var compareTime = parseInt($(this).attr("id").split("hour")[1]);
+            var compareTime = parseInt($(this).attr("id"));
             // Adds the future class 
             if (compareTime < timeNow) {
                 $(this).addClass("past");
